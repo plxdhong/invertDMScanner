@@ -91,14 +91,14 @@ function Hand() {
                             </Button>
                         </label>
                         <label htmlFor="icon-button-file">
-                            <Input accept="image/*" id="icon-button-file" type="file" />
+                            <Input accept="image/*" onChange={handleUpload} id="icon-button-file" type="file" />
                             <IconButton color="primary" aria-label="upload picture" component="span">
                             <PhotoCamera />
                             </IconButton>
                         </label>
                     </Stack>
-                    {error && <Alert severity="error"> 没有找到DM码+{Date.now()}</Alert>}
-                    {result && <Alert severity="success"> 找到DM码+{result}</Alert>}
+                    {error && <Alert severity="error"> 没有找到DM码:{Date.now().toString(36)}</Alert>}
+                    {result && <Alert severity="success"> DM码:{result}</Alert>}
                 </CardContent>
             </Box>
         </Card>
