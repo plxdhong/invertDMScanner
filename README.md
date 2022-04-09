@@ -1,3 +1,16 @@
+# 白色DataMatrix识别React App
+
+## 功能
+
+- [x] 识别反色DM码
+- [x] 输出反色图片
+- [ ] 储存已识别DM码
+- [ ] 交互式扫码体验
+- [ ] DM码定位
+- [ ] DM码预处理
+- [ ] 云高准确识别服务
+- [ ] 云识别服务Oauth验证
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
